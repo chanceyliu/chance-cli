@@ -1,5 +1,5 @@
 {
-  "name": "create",
+  "name": "@chanceliu/create",
   "version": "0.0.0",
   "description": "创建项目工具",
   "author": "chanceyliu <chanceyliu@tencent.com>",
@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "test": "node ./__tests__/create.test.js",
-    "build": "tsc"
+    "build": "tsc",
+    "preversion": "npm run build"
   },
   "bin": {
     "create-app": "./build/src/index.js"

@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config",
+  "name": "@chanceliu/eslint-config",
   "version": "0.0.0",
-  "description": "> TODO: description",
+  "description": "eslint config use chance-cli",
   "author": "chanceyliu <chanceyliu@tencent.com>",
   "homepage": "",
-  "license": "ISC",
-  "main": "lib/eslint-config.js",
+  "license": "MIT",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -15,7 +15,8 @@
   ],
   "scripts": {
     "test": "node ./__tests__/eslint-config.test.js",
-    "build": "tsc"
+    "build": "tsc",
+    "preversion": "npm run build"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.9",
