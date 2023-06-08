@@ -1,6 +1,6 @@
 {
   "name": "@chanceliu/eslint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "eslint config use chance-cli",
   "author": "chanceyliu <chanceyliu@tencent.com>",
   "homepage": "",
