@@ -1,4 +1,4 @@
 "use strict";
 module.exports = {
-    extends: ['./react.ts']
+    extends: './react'
 };

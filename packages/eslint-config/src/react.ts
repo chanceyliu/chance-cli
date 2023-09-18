@@ -2,7 +2,7 @@ const OFF = 0 // "off" 或 0 关闭规则
 const WARN = 1 // "warn" 或 1 开启规则-警告级别
 const ERROR = 2 // "error" 或 2 关闭规则-错误级别
 
-module.exports = {
+module.exports =  {
   env: {
     browser: true,
     es2021: true,
