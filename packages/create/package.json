@@ -5,7 +5,7 @@
   "author": "chanceyliu <chanceyliu@tencent.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/create.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,7 +19,7 @@
     "preversion": "npm run build"
   },
   "bin": {
-    "create-app": "./build/src/index.js"
+    "create-app": "./lib/index.js"
   },
   "dependencies": {
     "@types/inquirer": "^9.0.3",
