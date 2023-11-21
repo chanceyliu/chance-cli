@@ -5,6 +5,10 @@
   "npmClient": "npm",
   "packages": ["packages/*"],
   "commands": {
+    "publish": {
+      "message": "chore(release): publish",
+      "registry": "https://npm.pkg.github.com"
+    },
     "build": {
       "ignore": ["**/*", "!packages/**/*"],
       "npmClientArgs": ["run", "build"]
