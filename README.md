@@ -1,5 +1,3 @@
 # chance-cli
 
-my-cli
-
-参考： https://juejin.cn/post/6866435508487225358
+构建自己的脚手架工具，整合basic-react-template模板进来
